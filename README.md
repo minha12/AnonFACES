@@ -11,3 +11,10 @@ With increasing camera surveillance systems everywhere and the rise of the auton
 
 ---
 
+# Preliminary
+Before you start the notebooks:
+- Make sure required packages in ```requirements.txt``` are installed (please note that we ran our experiments on Microsoft's Azure Data Science Virtual Machine with some pre-installed packages, if you run our code on your local machine, the requirements may be differ)
+- Download a pre-trained StyleGAN model ```karras2019stylegan-ffhq-1024x1024.pkl``` (can be found at [StyleGAN's Github repo](https://github.com/NVlabs/stylegan) ) and put it to folder ```stylegan/cache/```
+- Download our [pre-trained CNN model](https://drive.google.com/file/d/1EhaiYQ0uWPPkmglnwjUNX_m6WU92z_bL/view?usp=sharing) ```FaceGen.RaFD.model.d5.adam.h5``` and put it to folder ```GNN/output/```
+- Prepare your facial descriptors (embbedings) which can be calculated by [Dlib](http://dlib.net), [FaceNet](https://github.com/davidsandberg/facenet) or PCA. Default folder is ```datasets/encoding_data/  
+- Prepare your StyleGAN's latent vectors which can be calculated by [StyleGAN-encoder](https://github.com/Puzer/stylegan-encoder). Default folder is ```datasets/stylegan_data/latent_vectors```. 
