@@ -1,4 +1,9 @@
-# AnonFACES
+# AnonFACES: Anonymizing Faces Adjusted to Constraints onEfficacy and Security
+
+---
+
+This is official implementation of paper 'AnonFACES: Anonymizing Faces Adjusted to Constraints onEfficacy and Security'
+
 ---
 
 With increasing camera surveillance systems everywhere and the rise of the autonomous cars, the concerns about privacy have never been addressed widely as much on the mainstream media like before. In this project, we are working on the problem of preserving privacy by concealing the facial identities in the multimedia database. It's known as problem of image-deidentification. However, with new technologies of Generative Adversarial Network (GAN) and Convolutional Neural Network (CNN), we revive the problem with a new approach that turns the image/video database with tens of GB or TB into a significantly condense latent space and embbeded face descriptors. Without a loss of generality, we can do different kinds of statistical analysis before applying k-Anonymity algorithm and optimize the information loss by state-of-the-art facial image synthesizes called styleGAN. We'll show that our methodology does not only have an advantage in providing a clear trade-off between privacy vs utility but also provide a higher level of privacy at the same requirement for utility. 
