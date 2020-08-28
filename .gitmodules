@@ -1,3 +1,6 @@
 [submodule "stylegan-encoder"]
 	path = stylegan-encoder
 	url = https://github.com/Puzer/stylegan-encoder.git
+[submodule "stylegan"]
+	path = stylegan
+	url = https://github.com/minha12/stylegan.git
