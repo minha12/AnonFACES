@@ -23,3 +23,38 @@ Before you start the notebooks:
 - Download our [pre-trained CNN model](https://drive.google.com/file/d/1EhaiYQ0uWPPkmglnwjUNX_m6WU92z_bL/view?usp=sharing) ```FaceGen.RaFD.model.d5.adam.h5``` and put it to folder ```GNN/output/```
 - Prepare your facial descriptors (embbedings) which can be calculated by [Dlib](http://dlib.net), [FaceNet](https://github.com/davidsandberg/facenet) or PCA. Default folder is ```datasets/encoding_data/  
 - Prepare your StyleGAN's latent vectors which can be calculated by [StyleGAN-encoder](https://github.com/Puzer/stylegan-encoder). Default folder is ```datasets/stylegan_data/latent_vectors```. 
+
+---
+# Paths
+
+```
+.
+├── CNN
+├── README.md
+├── [NB]\ NumericalExperiments.ipynb
+├── [NB]\ Partitioning.ipynb
+├── [NB]\ VisualizingResults.ipynb
+├── anonymizer
+│   ├── __init__.py
+│   ├── aam.py
+│   ├── cnn.py
+│   └── styleGan.py
+├── datasets
+│   ├── encoding_data
+│   └── stylegan_data
+├── evaluation.py
+├── outputs
+├── partitioning.py
+├── requirements.txt
+├── stylegan
+├── utils.py
+└── vizualization.py
+```
+
+---
+# Evaluations
+
+The evaluations for the paper is provided in the notebooks:
+- Evaluation with different face embeddings, anonymizers ```NumericalExperiments.ipynb```
+- Evaluation with different fixed-size clustering algorithms ```Partitioning.ipynb```
+- Visualizing the evaluation results ```VisualizingResults.ipynb```
