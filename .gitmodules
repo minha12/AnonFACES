@@ -1,0 +1,3 @@
+[submodule "stylegan-encoder"]
+	path = stylegan-encoder
+	url = https://github.com/Puzer/stylegan-encoder.git
