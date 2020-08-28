@@ -11,12 +11,12 @@ from evaluation import dist_to_fakeid
 import partitioning
 from vizualization import show_cluster_ids
 
-import styleGAN.dnnlib as dnnlib
-import styleGAN.dnnlib.tflib as tflib
+import stylegan.dnnlib as dnnlib
+import stylegan.dnnlib.tflib as tflib
 sys.modules['dnnlib'] = dnnlib
 dnnlib.tflib.init_tf()
 
-def load_styleGan(model_path = 'styleGAN/cache/karras2019stylegan-ffhq-1024x1024.pkl'):
+def load_styleGan(model_path = 'stylegan/cache/karras2019stylegan-ffhq-1024x1024.pkl'):
     with dnnlib.util.open_url(model_path) as f:
         generator_network, discriminator_network, averaged_generator_network = pickle.load(f)
     print("StyleGAN loaded & ready for sampling!")
