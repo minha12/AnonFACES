@@ -27,29 +27,30 @@ Before you start the notebooks:
 ---
 # Paths
 
-```
-.
-├── CNN
+
+|Path | Description
+| :--- | :---
+├── CNN | Submodule of Up-Convolutional Network
 ├── README.md
-├── [NB]\ NumericalExperiments.ipynb
-├── [NB]\ Partitioning.ipynb
-├── [NB]\ VisualizingResults.ipynb
-├── anonymizer
+├── [NB]\ NumericalExperiments.ipynb | Evaluations for face descriptors/anonymisers
+├── [NB]\ Partitioning.ipynb | Evaluation of fixed-size clustering (partitioning) algorithm
+├── [NB]\ VisualizingResults.ipynb | Visualising data
+├── anonymizer | Image anonymiser/syntheriser
 │   ├── __init__.py
-│   ├── aam.py
-│   ├── cnn.py
-│   └── styleGan.py
-├── datasets
-│   ├── encoding_data
-│   └── stylegan_data
-├── evaluation.py
-├── outputs
-├── partitioning.py
+│   ├── aam.py | Active Appearance Model 
+│   ├── cnn.py | Up-convolutional Network
+│   └── styleGan.py | StyleGAN
+├── datasets | Prepared data for evaluations
+│   ├── encoding_data | Face desciptors / embbeddings
+│   └── stylegan_data | Encoded latent vectors
+├── evaluation.py | Support functions for evaluations
+├── outputs | Folder for outputs
+├── partitioning.py | Fixed-size clustering algorithms
 ├── requirements.txt
-├── stylegan
-├── utils.py
-└── vizualization.py
-```
+├── stylegan | Submodule of StyleGAN
+├── utils.py | Utilities functions
+└── vizualization.py | Support functions for visualising results
+
 
 ---
 # Evaluations
