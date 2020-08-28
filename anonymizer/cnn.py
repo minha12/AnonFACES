@@ -4,13 +4,13 @@ import os
 import numpy as np
 import pandas as pd
 #self-made modules
-from GNN.faces.generate import generate_object
+from CNN.faces.generate import generate_object
 from evaluation import dist_to_fakeid
 import partitioning
 import sys
 import pickle
 
-def load_gnn(model_path='GNN/output/FaceGen.RaFD.model.d5.adam.h5'):
+def load_gnn(model_path='CNN/output/FaceGen.RaFD.model.d5.adam.h5'):
     
     model = load_model(model_path)
     num_ids = model.input_shape[0][1] 
@@ -22,7 +22,7 @@ def load_gnn(model_path='GNN/output/FaceGen.RaFD.model.d5.adam.h5'):
     return parameters
 
 def gnn_fakeids(clusters, adapt_data, adapt_raw_data, 
-                parameters=[], output='GNN/results'):
+                parameters=[], output='CNN/results'):
     if len(parameters) == 0:
         parameters = load_gnn() #default parameters
     information_loss = []
