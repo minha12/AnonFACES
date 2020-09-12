@@ -58,3 +58,9 @@ The evaluations for the paper is provided in the notebooks:
 - Evaluation with different face embeddings, anonymizers ```NumericalExperiments.ipynb```
 - Evaluation with different fixed-size clustering algorithms ```Partitioning.ipynb```
 - Visualizing the evaluation results ```VisualizingResults.ipynb```
+
+# Citation
+
+If you use our code, please cite our paper:
+
+Minh-Ha Le, Md Sakib Nizam Khan, Georgia Tsaloli, Niklas Carlsson, and Sonja Buchegger, “AnonFACES: Anonymizing Faces Adjusted to Constraints on Efficacy and Security”, Proceedings of the ACM CCS Workshop on Privacy in the Electronic Society (ACM WPES @CCS), Nov. 2020.
