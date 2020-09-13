@@ -2,7 +2,7 @@
 
 ---
 
-> This is official implementation of paper 'AnonFACES: Anonymizing Faces Adjusted to Constraints onEfficacy and Security'
+> This is official implementation of paper [AnonFACES: Anonymizing Faces Adjusted to Constraints on Efficacy and Security](https://www.ida.liu.se/~nikca89/papers/wpes20.pdf)
 
 ## Abstract
 
