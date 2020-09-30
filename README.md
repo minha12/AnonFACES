@@ -9,11 +9,8 @@
 Image data analysis techniques such as facial recognition can threaten individuals' privacy. Whereas privacy risks often can be reduced by adding noise to the data, this approach reduces the utility of the images. For this reason, image de-identification techniques typically replace directly identifying features (e.g.,faces, car number plates) present in the data with synthesized features, while still preserving other non-identifying features. As of today, existing techniques mostly focus on improving the naturalness of the generated synthesized images, without quantifying their impact on privacy. In this paper, we propose the first methodology and system design to quantify, improve, and tune the privacy-utility trade-off, while simultaneously also improving the naturalness of the generated images. The system design is broken down into three components that address separate but complementing challenges. This includes a two-step cluster analysis component to extract low-dimensional feature vectors representing the images (embedding) and to cluster the images into fixed-sized clusters. While the importance of good clustering mostly has been neglected in previous work, we find that our novel approach of using low-dimensional feature vectors can improve the privacy-utility trade-off by better clustering similar images. The use of these embeddings has been found particularly useful when wanting to ensure high naturalness and utility of the synthetically generated images. By combining improved clustering and incorporating StyleGAN, a state-of-the-art Generative Neural Network, into our solution, we produce more realistic synthesized faces than prior works, while also better preserving properties such as age, gender, skin tone, or even emotional expressions.   Finally, our iterative tuning method exploits non-linear relations between privacy and utility to identify good privacy-utility trade-offs. Wenote that an example benefit of these improvements is that our so-lution allows car manufacturers to train their autonomous vehicles while complying with privacy laws.
 
 <p align='center'>
-  <img src='https://github.com/minha12/image-deidentification/blob/minhha/clustering/evaluation/img/cluster.png'>
+  <img src='outputs/system_architecture.png'>
 </p>  
-<p align='center'>
-  <img src='https://github.com/minha12/image-deidentification/blob/minhha/clustering/evaluation/img/fakeid.png'>
-</p>
 
 ---
 
@@ -60,7 +57,9 @@ The evaluations for the paper is provided in the notebooks:
 - Evaluation with different face embeddings, anonymizers ```NumericalExperiments.ipynb```
 - Evaluation with different fixed-size clustering algorithms ```Partitioning.ipynb```
 - Visualizing the evaluation results ```VisualizingResults.ipynb```
-
+<p align='center'>
+  <img src='https://github.com/minha12/image-deidentification/blob/minhha/clustering/evaluation/img/fakeid.png'>
+</p>
 # Citation
 
 If you use our code, please cite our paper:
