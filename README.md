@@ -57,9 +57,12 @@ The evaluations for the paper is provided in the notebooks:
 - Evaluation with different face embeddings, anonymizers ```NumericalExperiments.ipynb```
 - Evaluation with different fixed-size clustering algorithms ```Partitioning.ipynb```
 - Visualizing the evaluation results ```VisualizingResults.ipynb```
+
 <p align='center'>
-  <img src='https://github.com/minha12/image-deidentification/blob/minhha/clustering/evaluation/img/fakeid.png'>
+  <img src='outputs/mixing.png'>
 </p>
+
+---
 # Citation
 
 If you use our code, please cite our paper:
