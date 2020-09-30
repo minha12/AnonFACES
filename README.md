@@ -4,7 +4,7 @@
 
 > This is official implementation of paper:
 
-Minh-Ha Le, Md Sakib Nizam Khan, Georgia Tsaloli, Niklas Carlsson, and Sonja Buchegger, ["AnonFACES: Anonymizing Faces Adjusted to Constraints on Efficacy and Security"](https://www.ida.liu.se/~nikca89/papers/wpes20.pdf), Proceedings of the ACM CCS Workshop on Privacy in the Electronic Society (ACM WPES @CCS), Nov. 2020.
+> Minh-Ha Le, Md Sakib Nizam Khan, Georgia Tsaloli, Niklas Carlsson, and Sonja Buchegger, ["AnonFACES: Anonymizing Faces Adjusted to Constraints on Efficacy and Security"](https://www.ida.liu.se/~nikca89/papers/wpes20.pdf), Proceedings of the ACM CCS Workshop on Privacy in the Electronic Society (ACM WPES @CCS), Nov. 2020.
 
 
 ## Abstract
