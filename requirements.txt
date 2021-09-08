@@ -9,7 +9,7 @@ dlib==19.19.0
 imutils==0.5.3
 menpo==0.10.0
 menpofit==0.6.1
-pillow==7.1.0
+pillow==8.3.2
 tqdm==4.42.0
 imageio==2.9.0
 opencv-python==4.2.0.34
