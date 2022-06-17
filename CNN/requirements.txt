@@ -3,7 +3,7 @@ decorator==4.0.10
 h5py==2.6.0
 Keras==1.2.0
 networkx==1.11
-numpy==1.11.3
+numpy==1.21.0
 olefile==0.44
 Pillow==7.1.0
 PyYAML==4.2b1
